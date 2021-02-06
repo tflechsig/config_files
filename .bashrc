@@ -115,7 +115,7 @@ fi
 # tef additions
 bind "set completion-ignore-case on"
 
-source /opt/Xilinx/14.7/ISE_DS/settings64.sh &> /dev/null
+source /tools/Xilinx/Vivado/2020.2/.settings64-Vivado.sh &> /dev/null
 set -o vi
 bind '"kj":vi-movement-mode'
 
