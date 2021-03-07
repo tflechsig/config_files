@@ -120,3 +120,5 @@ set -o vi
 bind '"kj":vi-movement-mode'
 
 alias ls='ls -lat --color'
+
+export PATH=$PATH:/sbin
